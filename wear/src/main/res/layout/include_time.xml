@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+    <TextView
+        android:id="@+id/watch_time"
+        android:text="10:10 AM"
+        android:textSize="15sp"
+
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/watch_comment"
+        android:text="WEEKEND'S\nOVER!!"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-thin"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/watch_time"/>
+    <TextView
+        android:id="@+id/watch_date"
+        android:text="Sun 9"
+        android:textSize="15sp"
+
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/watch_comment"
+        />
+
+
+</RelativeLayout>
+</RelativeLayout>

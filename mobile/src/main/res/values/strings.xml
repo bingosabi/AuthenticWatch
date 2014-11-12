@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Watch Quotes</string>
+    <string name="title_setting_list">Watch Quotes Settings</string>
+    <string name="title_setting_detail">Setting Detail</string>
+
+</resources>
